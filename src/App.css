@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ddbef6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, #ffffff, #000);
+}
+
+.App {
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.TodoWrapper {
+    background: #1A1A40;
+    padding: 2rem;
+    border-radius: 5px;
+    min-width: 600px;
+}
+
+.TodoForm {
+    width: 100%;
+}
+
+.todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-block-start: 1rem;
+    margin-block-end: 2rem;
+    width: 300px;
+    color: #fff;
+}
+
+.todo-input::placeholder {
+    color: #fffff0;
+    opacity: 0.6;
+}
+
+.todo-btn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8758ff;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.fa-trash {
+    margin-left: 0.75rem;
+}
+
+.completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+}
+
+.button-edit {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 5px;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    margin: 2px;
+}
+
+.fa-trash {
+    margin-left: 0px;
+    background-color: tomato;
+}
+
+.button-delete {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 5px;
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    margin: 2px;
+}
+
+.button-complete {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 5px;
+    width: 25px;
+    height: 25px;
+    background-color: greenyellow;
+    margin: 2px;
+}
